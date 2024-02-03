@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph id="largeGraph" name="example-large-graph">
+    <vertexList>
+        <vertex id="v1" tag="A" x="-50.3" y="60.9" />
+        <vertex id="v2" tag="B" x="20.7" y="5.2" />
+        <vertex id="v3" tag="C" x="80.5" y="-70.4" />
+        <vertex id="v4" tag="D" x="-30.8" y="90.2" />
+        <vertex id="v5" tag="E" x="60.1" y="-42.6" />
+        <vertex id="v6" tag="F" x="-98.9" y="35.3" />
+        <vertex id="v7" tag="G" x="33.7" y="-10.4" />
+        <vertex id="v8" tag="H" x="101.4" y="12.7" />
+        <vertex id="v9" tag="I" x="0.6" y="49.0" />
+        <vertex id="v10" tag="J" x="-10.2" y="-94.8" />
+        <vertex id="v11" tag="K" x="75.7" y="76.0" />
+        <vertex id="v12" tag="L" x="-72.5" y="-51.8" />
+        <vertex id="v13" tag="M" x="26.9" y="36.3" />
+        <vertex id="v14" tag="N" x="63.0" y="-12.3" />
+        <vertex id="v15" tag="O" x="-63.6" y="17.2" />
+        <vertex id="v16" tag="P" x="35.8" y="-63.5" />
+        <vertex id="v17" tag="Q" x="-40.2" y="3.9" />
+        <vertex id="v18" tag="R" x="55.6" y="60.1" />
+        <vertex id="v19" tag="S" x="-21.4" y="-34.7" />
+        <vertex id="v20" tag="T" x="26.1" y="-36.0" />
+
+    </vertexList>
+    <edgeList>
+        <!-- Edges connecting the vertices to their nearest neighbors -->
+        <edge id="e1" source="v6" target="v15"/>
+        <edge id="e2" source="v15" target="v1"/>
+        <edge id="e3" source="v6" target="v1"/>
+        <edge id="e4" source="v15" target="v17"/>
+        <edge id="e5" source="v1" target="v17"/>
+        <edge id="e6" source="v17" target="v12"/>
+        <edge id="e7" source="v4" target="v1"/>
+        <edge id="e8" source="v9" target="v4"/>
+        <edge id="e9" source="v9" target="v13"/>
+        <edge id="e10" source="v4" target="v11"/>
+        <edge id="e11" source="v12" target="v19"/>
+        <edge id="e12" source="v17" target="v19"/>
+        <edge id="e13" source="v17" target="v9"/>
+        <edge id="e14" source="v12" target="v15"/>
+        <edge id="e15" source="v10" target="v19"/>
+        <edge id="e16" source="v19" target="v2"/>
+        <edge id="e17" source="v17" target="v2"/>
+        <edge id="e18" source="v9" target="v2"/>
+        <edge id="e19" source="v2" target="v13"/>
+        <edge id="e21" source="v6" target="v12"/>
+        <edge id="e22" source="v6" target="v4"/>
+        <edge id="e23" source="v1" target="v9"/>
+        <edge id="e24" source="v13" target="v18"/>
+        <edge id="e25" source="v18" target="v4"/>
+        <edge id="e26" source="v1" target="v18"/>
+        <edge id="e27" source="v18" target="v18"/>
+        <edge id="e28" source="v7" target="v2"/>
+        <edge id="e29" source="v12" target="v10"/>
+        <edge id="e30" source="v19" target="v9"/>
+        <edge id="e31" source="v17" target="v7"/>
+        <edge id="e32" source="v18" target="v11"/>
+        <edge id="e33" source="v18" target="v2"/>
+        <edge id="e34" source="v7" target="v14"/>
+        <edge id="e35" source="v14" target="v13"/>
+        <edge id="e36" source="v19" target="v7"/>
+        <edge id="e37" source="v14" target="v18"/>
+        <edge id="e38" source="v11" target="v14"/>
+        <edge id="e39" source="v8" target="v11"/>
+        <edge id="e40" source="v10" target="v16"/>
+        <edge id="e41" source="v19" target="v16"/>
+        <edge id="e42" source="v19" target="v20"/>
+        <edge id="e43" source="v20" target="v16"/>
+        <edge id="e44" source="v20" target="v5"/>
+        <edge id="e45" source="v20" target="v7"/>
+        <edge id="e46" source="v20" target="v14"/>
+        <edge id="e47" source="v14" target="v5"/>
+        <edge id="e48" source="v16" target="v5"/>
+        <edge id="e49" source="v16" target="v3"/>
+        <edge id="e50" source="v10" target="v3"/>
+        <edge id="e51" source="v3" target="v5"/>
+        <edge id="e52" source="v5" target="v8"/>
+        <edge id="e53" source="v14" target="v8"/>
+        <edge id="e54" source="v8" target="v3"/>
+        <edge id="e55" source="v16" target="v12"/>
+        <edge id="e56" source="v16" target="v19"/>
+        <edge id="e57" source="v14" target="v8"/>
+        <edge id="e58" source="v15" target="v9"/>
+        <edge id="e59" source="v2" target="v8"/>
+        <edge id="e60" source="v20" target="v3"/>
+    </edgeList>
+</graph>
